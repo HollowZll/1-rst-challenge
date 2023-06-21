@@ -56,4 +56,15 @@
 .container__circle__paragraph {
   opacity: 0.5;
   font-size: 15px;
+}
+
+.transparent__container {
+  width: 375px;
+  height: 355px;
+  color: black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
