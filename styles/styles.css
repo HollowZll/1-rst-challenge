@@ -10,7 +10,7 @@
 .purple__container {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   width: 375px;
-  height: 375px;
+  height: 335px;
   color: white;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
@@ -24,7 +24,7 @@
   opacity: 0.5;
 }
 .purple__container .purple__container__circle {
-  background-color: black;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-radius: 100%;
   width: 140px;
   height: 140px;
@@ -36,4 +36,12 @@
 }
 .purple__container h1 {
   font-size: 56px;
+}
+.purple__container h4 {
+  font-size: 24px;
+}
+.purple__container .purple__container__paragraph {
+  text-align: center;
+  width: 300px;
+  opacity: 0.5;
 }/*# sourceMappingURL=styles.css.map */
