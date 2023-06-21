@@ -67,4 +67,42 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.transparent__title {
+  margin: 20px;
+}
+
+.tranparent__red {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(248, 232, 231);
+  height: 70px;
+  width: 340px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.transparent__text__light {
+  opacity: 0.5;
+}
+
+.transparent__reaction {
+  color: rgb(225, 149, 150);
+}
+
+.transparent__button {
+  width: 320px;
+  height: 70px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(50, 59, 87);
+}
+
+.transparent__skills {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
