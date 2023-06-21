@@ -7,6 +7,13 @@
   font-size: 18px;
 }
 
+.two__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .purple__container {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   width: 375px;
@@ -71,6 +78,8 @@
 
 .transparent__title {
   margin: 20px;
+  text-align: left;
+  width: 340px;
 }
 
 .tranparent__red {
@@ -98,6 +107,12 @@
   display: flex;
   justify-content: space-between;
   width: 100px;
+}
+
+.transparent__skills__verbal {
+  display: flex;
+  justify-content: space-between;
+  width: 88px;
 }
 
 .tranparent__orange {

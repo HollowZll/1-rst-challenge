@@ -10,6 +10,14 @@
 }
 
 
+.two__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 //purple card
 
 .purple__container {
@@ -83,6 +91,9 @@
 
 .transparent__title {
      margin: 20px;
+     text-align: left;
+     width: 340px;
+     
 }
 
 
@@ -115,6 +126,11 @@
     width: 100px;
 }
 
+.transparent__skills__verbal {
+    display: flex;
+    justify-content: space-between;
+    width: 88px;
+}
 // orange
 
 .tranparent__orange {
