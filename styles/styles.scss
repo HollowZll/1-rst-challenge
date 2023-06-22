@@ -6,7 +6,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -78,7 +78,7 @@
 .transparent__container {
     
     width: 375px;
-    height: 355px;
+    height: 420px;
     color: black;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -91,6 +91,8 @@
 
 .transparent__title {
      margin: 20px;
+     margin-left: 50px;
+     margin-top: 30px;
      text-align: left;
      width: 340px;
      
@@ -103,8 +105,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(248, 232, 231);
-    height: 70px;
-    width: 340px;
+    height: 130px;
+    width: 313px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 8px;
@@ -114,6 +116,7 @@
 
 .transparent__text__light {
     opacity: 0.5;
+    font-size: 14px;
 }
 
 .transparent__reaction {
@@ -138,8 +141,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: hsl(39, 100%, 94%);
-    height: 70px;
-    width: 340px;
+    height: 130px;
+    width: 313px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 8px;
@@ -158,8 +161,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: hsl(166, 91%, 95%);
-    height: 70px;
-    width: 340px;
+    height: 130px;
+    width: 313px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 8px;
@@ -177,12 +180,12 @@
     justify-content: space-between;
     align-items: center;
     background-color: hsl(233, 92%, 95%);
-    height: 70px;
-    width: 340px;
+    height: 130px;
+    width: 313px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 8px;
-    margin-bottom: 15px;
+    margin-bottom: px;
 }
 
 .transparent__visual {
@@ -191,8 +194,12 @@
 
 .transparent__button {
     width: 320px;
-    height: 70px;
+    height: 115px;
     border-radius: 50px;
     color: white;
     background-color: rgb(50, 59, 87);
+    font-size: 16px;
+    margin-top: 15px;
+    
 }
+
