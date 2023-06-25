@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
+$mobile  : 576px;
+$tablet  : 768px;
+$laptop  : 992px; 
+$desktop : 1200px;
 
 * {
     margin: 0px;
@@ -203,3 +207,23 @@
     
 }
 
+
+
+@media (min-width: $laptop){
+    .two__cards {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+//.two__cards {
+//    display: flex;
+//    flex-direction: row;
+//}
+
+//body {
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    height: 100vb;
+//}
