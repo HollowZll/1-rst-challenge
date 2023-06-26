@@ -180,6 +180,10 @@
   margin-top: 15px;
 }
 
+.transparent__button:hover {
+  background-color: red;
+}
+
 @media (min-width: 992px) {
   .two__cards {
     display: flex;
